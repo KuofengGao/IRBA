@@ -14,7 +14,7 @@ import numpy as np
 import argparse
 import pickle
 from data_utils.WLT import WLT
-from chamfer_distance import ChamferDistanceMean
+from cuda.chamfer_distance import ChamferDistanceMean
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)
