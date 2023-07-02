@@ -44,6 +44,15 @@ IRBA backdoor attack in our paper can be run as follows.
 python backdoor_attack.py --dataset modelnet10 --num_category 10 --model pointnet_cls --poisoned_rate 0.1 --target_label 8 --num_anchor 16 --R_alpha 5 --S_size 5 --process_data --use_uniform_sample --gpu 0
 ```
 
+## Calculate the Chamfer Distance
+
+Chamfer Distance between the clean samples and the poisoned samples in our paper is calculated as follows. 
+
+```shell
+cd chamfer_dist && python setup.py install --user && cd ..
+python -m tools.calculate_cd --process_data --use_uniform_sample
+```
+
 ## Citation
 
 ```
