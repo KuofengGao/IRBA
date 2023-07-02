@@ -49,7 +49,7 @@ python backdoor_attack.py --dataset modelnet10 --num_category 10 --model pointne
 Chamfer Distance between the clean samples and the poisoned samples in our paper is calculated as follows. 
 
 ```shell
-cd chamfer_dist && python setup.py install --user && cd ..
+cd cuda/chamfer_dist && python setup.py install --user && cd .. && cd ..
 python -m tools.calculate_cd --process_data --use_uniform_sample
 ```
 
