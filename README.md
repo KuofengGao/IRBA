@@ -56,12 +56,14 @@ python -m tools.calculate_cd --process_data --use_uniform_sample
 ## Citation
 
 ```
-@article{gao2022imperceptible,
-  title={Imperceptible and Robust Backdoor Attack in 3D Point Cloud},
+@article{gao2024imperceptible,
+  title={Imperceptible and Robust Backdoor Attack in 3D Point Cloud}, 
   author={Gao, Kuofeng and Bai, Jiawang and Wu, Baoyuan and Ya, Mengxi and Xia, Shu-Tao},
-  journal={arXiv preprint arXiv:2208.08052},
-  year={2022}
-}
+  journal={IEEE Transactions on Information Forensics and Security}, 
+  year={2024},
+  volume={19},
+  pages={1267-1282},
+  doi={10.1109/TIFS.2023.3333687}}
 ```
 
 ## Acknowledgements
