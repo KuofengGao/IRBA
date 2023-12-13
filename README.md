@@ -1,5 +1,5 @@
 # Imperceptible and Robust Backdoor Attack in 3D Point Cloud
-This repository provides the pytorch implementatin of our work: [Imperceptible and Robust Backdoor Attack in 3D Point Cloud](https://arxiv.org/abs/2208.08052).
+This repository provides the pytorch implementatin of our TIFS 2024 work: [Imperceptible and Robust Backdoor Attack in 3D Point Cloud](https://arxiv.org/abs/2208.08052).
 
 ## Abstract
 
