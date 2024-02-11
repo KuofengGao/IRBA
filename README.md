@@ -1,5 +1,5 @@
 # Imperceptible and Robust Backdoor Attack in 3D Point Cloud
-This repository provides the pytorch implementatin of our TIFS 2024 work: [Imperceptible and Robust Backdoor Attack in 3D Point Cloud](https://arxiv.org/abs/2208.08052).
+This repository provides the pytorch implementatin of our TIFS 2023 work: [Imperceptible and Robust Backdoor Attack in 3D Point Cloud](https://arxiv.org/abs/2208.08052).
 
 ## Abstract
 
@@ -56,14 +56,15 @@ python -m tools.calculate_cd --process_data --use_uniform_sample
 ## Citation
 
 ```
-@article{gao2024imperceptible,
-  title={Imperceptible and Robust Backdoor Attack in 3D Point Cloud}, 
+@article{gao2023imperceptible,
+  title={Imperceptible and robust backdoor attack in 3d point cloud},
   author={Gao, Kuofeng and Bai, Jiawang and Wu, Baoyuan and Ya, Mengxi and Xia, Shu-Tao},
-  journal={IEEE Transactions on Information Forensics and Security}, 
-  year={2024},
+  journal={IEEE Transactions on Information Forensics and Security},
   volume={19},
-  pages={1267-1282},
-  doi={10.1109/TIFS.2023.3333687}}
+  pages={1267--1282},
+  year={2023},
+  publisher={IEEE}
+}
 ```
 
 ## Acknowledgements
